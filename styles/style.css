@@ -75,6 +75,9 @@ a{
 
 
 }
+.primary-btn > a{
+    color: #FFFFFF;
+}
 /* why web dev section  */
 
 .why-web-dev{
@@ -90,7 +93,7 @@ a{
     display: flex;
     flex-direction: column;
     align-items: center;
-    text-align: center;m,
+    text-align: center;
     justify-content: space-between;
     gap: 40px;
     padding-bottom: 25px;
@@ -169,12 +172,12 @@ a{
     text-align: center;
     gap: 20px;
 }
-.inspire-title, .t-title , .n-title{
+.inspire-title, .t-title , .n-title , .s-title{
     font-size: 32px;
     font-weight: 800;
 
 }
-.inspire-des , .t-description, .n-des, .skill-des{
+.inspire-des , .t-description, .n-des, .skill-des ,.s-des{
     font-size: 16px;
     font-weight: 400;
 }
@@ -247,14 +250,66 @@ a{
     padding: 20px;
     border-radius: 15px;
     gap: 50px;
+    border: 1px solid black;
+    border-radius: 10px;
 
 }
 .skill-content{
     display: flex;
     flex-direction: column;
     gap: 20px;
+
     
 }
+
+/* support section and form  */
+.support{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    gap: 25px;
+    margin-top: 80px;
+    margin-left: 120px;
+    margin-right: 120px;
+    background-image: url(../assets/handshake.jpg);
+    height: 313px;
+    background-size:1140px 313px;
+    background-repeat: no-repeat;
+    
+    border-radius: 15px;
+
+}
+.text{
+    height: 57px;
+    width: 545px;
+    padding-left: 20px;
+    border-radius: 10px;
+    font-size: 16px;
+    font-weight: 400;
+
+}
+.submit{
+    height: 57px;
+    width: 120px;
+    font-size: 20px;
+    font-weight: 500;
+    border-radius: 10px;
+}
+.support-content{
+
+    line-height: 30px;
+    color: #FFFFFF;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    
+}
+.s-des{
+    color: #e8dfdf;
+}
+
 /* footer section  */
 footer{
     height: 100px;
