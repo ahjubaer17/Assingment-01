@@ -56,6 +56,7 @@ main{
     font-weight: 400;
     color: #0D1321;
     line-height: 30px;
+    text-align: center;
 }
 .primary-btn{
     width: 244px;
@@ -82,12 +83,15 @@ main{
 
 }
 .wwd-titles{
-    
+    display: flex;
+    flex-direction: column;
+
     align-items: center;
     text-align: center;
-    /* align-content: space-between; */
+    
     justify-content: space-between;
-    gap: 50px;
+    gap: 40px;
+    padding-bottom: 25px;
 
 }
 .wwd-title{
@@ -98,7 +102,7 @@ main{
     font-size: 14px;
     font-weight: 400;
     text-align: center;
-    line-height: 20px;
+    line-height: 30px;
 }
 .wwd-list{
     display: flex;
@@ -113,7 +117,7 @@ main{
     
 }
 .list-items{
-    width: 50%;
+    width: 60%;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -134,4 +138,10 @@ main{
     width: 170px;
     font-size: 20px;
     font-weight: 500;
+    cursor: pointer;
+    
+    
+}
+a{
+    text-decoration: none;
 }
