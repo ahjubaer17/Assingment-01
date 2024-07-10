@@ -148,7 +148,7 @@ a{
 
 /* inspiration section */
 
-.inspiration{
+.inspiration , .next-target{
     margin-top: 100px;
     padding: 35px;
     display: flex;
@@ -161,7 +161,7 @@ a{
 
 }
 
-.inspire-head , .target-head{
+.inspire-head , .target-head , .next-head {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -169,12 +169,12 @@ a{
     text-align: center;
     gap: 20px;
 }
-.inspire-title, .t-title{
+.inspire-title, .t-title , .n-title{
     font-size: 32px;
     font-weight: 800;
 
 }
-.inspire-des , .t-description{
+.inspire-des , .t-description, .n-des, .skill-des{
     font-size: 16px;
     font-weight: 400;
 }
@@ -202,7 +202,7 @@ a{
     margin-top: 25px;
 
 }
-.t-skill{
+.t-skill {
     height: 300px;
     width: 365px;
     padding: 20px;
@@ -240,7 +240,21 @@ a{
 #js{
     background-color: #ffdd0029;
 }
+/* next target  */
+.next-skill{
+    display: flex;
+    flex-direction: row;
+    padding: 20px;
+    border-radius: 15px;
+    gap: 50px;
 
+}
+.skill-content{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    
+}
 /* footer section  */
 footer{
     height: 100px;
