@@ -240,3 +240,25 @@ a{
 #js{
     background-color: #ffdd0029;
 }
+
+/* footer section  */
+footer{
+    height: 100px;
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 120px 120px 0px 120px;
+    align-content: center;
+    text-align: center;
+}
+.f-title{
+    font-size: 20px;
+    font-weight: 500;
+}
+.social-icons{
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+
+    
+}
