@@ -145,3 +145,44 @@ main{
 a{
     text-decoration: none;
 }
+
+/* inspiration section */
+
+.inspiration{
+    margin-top: 100px;
+    padding: 35px;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+   
+    
+    
+    
+
+}
+
+.inspire-head{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    gap: 20px;
+}
+.inspire-title{
+    font-size: 32px;
+    font-weight: 800;
+
+}
+.inspire-des{
+    font-size: 16px;
+    font-weight: 400;
+}
+.iframe{
+    
+    padding: 50px;
+
+}
+.iframe-video{
+    border-radius: 15px;
+}
